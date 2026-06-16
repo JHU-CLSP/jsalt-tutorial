@@ -15,6 +15,11 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+# Install Muon optimizer
+subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet",
+                       "git+https://github.com/KellerJordan/Muon"])
+from muon import SingleDeviceMuonWithAuxAdam  # noqa: E402
+
 # ---------------------------------------------------------------------------
 # Hyperparameters / constants
 # ---------------------------------------------------------------------------
@@ -213,11 +218,6 @@ def generate(model: Transformer, prompt: str, device: torch.device,
 # ---------------------------------------------------------------------------
 
 def main():
-    # Install Muon optimizer if needed
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "--quiet",
-                           "git+https://github.com/KellerJordan/Muon"])
-    from muon import SingleDeviceMuonWithAdam as SingleDeviceMuonWithAuxAdam  # noqa: PLC0415
-
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
