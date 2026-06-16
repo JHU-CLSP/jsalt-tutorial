@@ -29,7 +29,7 @@
 
 ### Slides
 
-* Pre-training: [pdf](tbd) [pptx ](tbd)
+* Pre-training: [pdf](slides/lec1-pre-training.pdf) [pptx](slides/lec1-pre-training.pptx)
 * Post-training: [pdf](slides/lec2-post-training.pdf) [pptx](slides/lec2-post-training.pptx)
 
 ### Lab Materials
