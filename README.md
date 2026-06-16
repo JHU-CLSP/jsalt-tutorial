@@ -29,8 +29,8 @@
 
 ### Slides
 
-* Pre-training: *(link coming soon)*
-* Post-training: *(link coming soon)*
+* Pre-training: [pdf](tbd) [pptx ](tbd)
+* Post-training: [pdf](slides/lec2-post-training.pdf) [pptx](slides/lec2-post-training.pptx)
 
 ### Lab Materials
 
