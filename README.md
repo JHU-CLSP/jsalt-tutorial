@@ -13,16 +13,15 @@
 
 ## Daily Schedule
 
-| Time        | Activity                           |
-| ----------- | ---------------------------------- |
-| 08:00–09:00 | Continental Breakfast *(provided)* |
-| 09:00–10:20 | Lecture 1                          |
-| 10:20–10:40 | Stretch Break                      |
-| 10:40–12:00 | Lecture 2                          |
-| 12:00–13:00 | Lunch Break *(on your own)*        |
-| 13:00–13:30 | Lab Setup                          |
-| 13:30–17:00 | Lab Session                        |
-
+| Time | Activity |
+|------|----------|
+| 08:00–09:00 | Continental Breakfast (provided) |
+| 09:00–10:20 | Lecture 1 |
+| 10:20–10:30 | Stretch Break |
+| 10:30–12:00 | Lab Session |
+| 12:00–13:00 | Lunch Break (on your own) |
+| 13:00–14:20 | Lecture 2 |
+| 14:20–17:00 | Lab Session |
 ---
 
 ## Course Materials
